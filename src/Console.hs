@@ -3,6 +3,7 @@ module Console where
 
 import Game
 
+
 play :: Game -> IO String
 play g@(Game l) = do
     putStrLn $ "There are " ++ show l ++ " matches. How many do you take? "
